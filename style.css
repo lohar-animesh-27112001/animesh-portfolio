@@ -392,14 +392,14 @@ form button:active {
     transform: translateY(0);
 }
 
-.contact ul {
+form ul {
     list-style: none;
     padding: 0;
     margin-top: 2.5rem;
     display: flex;
-    /* width: 30%; */
+    width: 100%;
     justify-content: space-between;
-    gap: .7rem;
+    /* gap: .6rem; */
     /* I want fixed inner gap */
 
 }
@@ -444,6 +444,7 @@ form button:active {
 }
 
 .hamburger {
+    margin-top: 14px;
     display: none; 
     flex-direction: column;
     gap: 5px;
@@ -508,9 +509,9 @@ form button:active {
     }
 
     /* Hide desktop resume button */
-    nav button {
+    /* nav button {
         display: none;
-    }
+    } */
 
     .cards {
         margin-top: 5rem;
@@ -756,6 +757,7 @@ form button:active {
     header p {
         font-size: 1rem;
         line-height: 1.5;
+        margin-top: 10px;
     }
     
     header p span {
@@ -858,11 +860,11 @@ form button:active {
     
     nav ul {
         gap: 0.3rem;
+        margin-top: 0;
     }
     
-    nav ul li a {
-        font-size: 1rem;
-        padding: 3px 6px;
+    nav ul li {
+        margin-top: 7rem;
     }
     
     nav button {
@@ -876,6 +878,7 @@ form button:active {
     
     header p {
         font-size: 0.9rem;
+        margin-top: 4.4rem;
     }
     
     header p span {
@@ -885,6 +888,10 @@ form button:active {
     #img1 {
         width: 150px;
         height: 150px;
+    }
+
+    projects {
+        padding-top: 7rem;
     }
     
     .projects,
@@ -912,6 +919,16 @@ form button:active {
     
     .skills li {
         font-size: 0.85rem;
+    }
+
+    .education {
+        padding-top: 10rem;
+        background-color: rgba(0, 0, 0, 0.301);
+    }
+
+    .contact {
+        padding-top: 11rem;
+        background-color: rgba(0, 0, 0, 0.301);
     }
     
     .contact h1 {
